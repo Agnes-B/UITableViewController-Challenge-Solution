@@ -7,12 +7,12 @@
         <!--Table View Controller-->
         <scene sceneID="NGh-6p-IIi">
             <objects>
-                <tableViewController id="ZnQ-pT-Icm" sceneMemberID="viewController">
+                <tableViewController id="ZnQ-pT-Icm" customClass="ABTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="6Hb-pZ-0Jv">
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="QBW-1R-sgk">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="QBW-1R-sgk">
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QBW-1R-sgk" id="3LL-or-w4x">
                                     <autoresizingMask key="autoresizingMask"/>
